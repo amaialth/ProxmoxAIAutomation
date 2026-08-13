@@ -7,7 +7,6 @@ An intelligent, agentic maintenance framework for **Proxmox Virtual Environment 
 ## 🌟 Key Features
 
 - **Proxmox Cluster Management**: Direct integration with Proxmox VE REST API and QEMU Guest Agent channels for VM lifecycle management, snapshots, and node health checks.
-- **Synchronous OS Maintenance**: Supports direct SSH MCP execution (`@modelcontextprotocol/server-ssh`) to bypass REST polling timeouts during long-running tasks like system upgrades.
 - **Modular Agent Skill Library**: On-demand, lazy-loaded skill definitions (`.md`) equipped with safety guardrails and automated rollback protections.
 - **Sequential Thinking Integration**: Built-in step-by-step reasoning and dynamic revision loops to prevent unexpected side effects on production systems.
 - **Non-Interactive Execution Safeguards**: Configured with explicit `DEBIAN_FRONTEND=noninteractive` flags and dpkg option overrides to prevent command hanging on terminal prompts.

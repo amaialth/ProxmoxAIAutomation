@@ -1,7 +1,7 @@
 ---
 name: Guest VM Maintainer
 description: Agent for performing OS package updates and cleanup inside Linux VMs.
-tools: ['proxmox-local/*']
+tools: [edit, 'proxmox-local/*', 'sequential-thinking/*']
 ---
 
 # Role & Objective
